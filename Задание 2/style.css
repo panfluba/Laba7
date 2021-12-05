@@ -1,0 +1,407 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #00402F;
+    letter-spacing: normal;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/* ------------------- H E A D E R -------------------- */
+
+header{
+    /* padding: 10px 0; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#header_inner_container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 39px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#left_border{
+    border-left: 1px solid lightgray;
+    display: flex;
+}
+
+#sign_up_button{
+    background-color: rgb(0, 68, 34);
+    display: flex;
+    color: white;
+}
+
+nav span{
+    padding: 0 10px;
+    margin: auto;
+}
+
+
+/* ---------------------- B U T T O N S ------------------------------ */
+button{
+    border-radius: 50px;
+    margin-right: auto;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+#topic1 button, #topic7 button {
+    border: none;
+    color: #00402F;
+}
+
+#topic2 button{
+    border-style: double;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+#topic3 button{
+    border: none;
+    background-color: #00402F;
+    color:#FFFFFF;
+}
+
+#topic7 button {
+    margin: 1rem auto;
+}
+
+
+/* ------------------------- M A I N ---------------------------------- */
+
+#main_inner_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto  ;
+}
+
+.main_content{
+    display: flex;
+    flex-direction: row;
+    padding: 3.5rem;
+}
+
+.img_container{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------- T O P I C  1  2  3 -------------------- */
+
+#topic1, #topic2, #topic3{
+    display: flex;
+    flex-direction: row;
+}
+
+#topic1 img, #topic2 img, #topic3 img, #topic5 img{
+    min-height: 400px;
+    min-width: 400px;
+    max-width: 600px;
+    width: 100%;
+}
+
+#topic6 img{
+    min-height: 200px;
+    min-width: 200px;
+    max-width: 300px;
+    width: 100%;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.vertical_auto{
+    margin: auto 0;
+}
+
+#topic1{
+    background: #668C82;
+    color: #FFFFFF;
+}
+
+#topic1 .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 61px ;
+    line-height: 53px;
+    margin-bottom: 1rem;
+}
+#topic1 .title span{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+li{
+    list-style-type: none;
+    padding: 12px 0;
+    padding-left: 13px;
+}
+
+/* #topic1 .img {
+    width: 546px;
+    height: 547px
+} */
+
+#topic2{
+    background: #849ACB;
+    color: #FFFFFF;
+}
+
+.mini_title {
+    font-size: 11px !important;
+    line-height: 13px !important;
+
+    letter-spacing: 4.3px !important;
+    text-transform: uppercase;
+}
+
+
+#topic2 span {
+    font-size: 34px;
+    line-height: 51px;
+    letter-spacing: 0.3px;
+}
+
+
+
+#topic3, #topic6{
+    background: #FFF4E3;
+}
+
+
+#topic3 .title{
+    font-size: 61px;
+    line-height: 53px;  
+    padding-bottom: 1.5rem;
+}
+
+#topic3 button {
+    margin-top: 1rem;
+}
+/* ------------------- T O P I C  4  -------------------- */
+
+#topic4, #topic5, #topic6, #topic7 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+
+#topic4 .img {
+    /* height: 100px;
+    width: 130px; */
+    margin: 0 auto;
+}
+
+#topic4 .title {
+    font-size: 50px;
+    line-height: 65px;
+    padding: 1rem 20%;
+    text-align: center;
+}
+
+#topic4 span {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 1rem;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.columns span {
+ margin: 0 auto;
+}
+
+#topic5 .title {
+    font-size: 36px;
+    line-height: 39px;
+}
+
+#topic5 span {
+    max-width: 500px;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+#topic5 .text {
+    margin: auto 0;
+}
+
+.elem_center{
+    margin: 0 auto;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+/* ------------------- T O P I C  6  7 -------------------- */
+#topic6 .title{
+    text-align: center;
+    font-size: 50px;
+    line-height: 45px; 
+}
+#topic6 .img_container{
+    margin: 0 auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#topic7{
+    background: #522840;
+    color: #FFFFFF;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#topic7 .title {
+    text-align: center;
+    line-height: 2rem;
+    font-size: 20px;
+    padding: 1rem 30%;
+}
+
+
+/* ------------------- F O O T E R -------------------- */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5rem 10%;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media(max-width: 950px) {
+    #topic7 .title{
+        padding: 1rem 5% !important;
+    }
+    .rows {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #topic4 .title {
+        font-size: 30px;
+        line-height: 36px;
+        padding: 1rem 5%;
+    }
+    #topic4 .img {
+        height: 200px;
+        width: auto;
+    }
+
+    #topic4 span {
+        font-size: 23px;
+    }
+
+    .elem_center{
+        margin-top: 1rem;
+    }
+    
+    #topic1, #topic2, #topic3{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .vertical_auto {
+        margin: 0 auto;
+    }
+
+    #topic1 img, #topic2 img, #topic3 img, #topic5 img{
+        min-height: 100px;
+        min-width: 100px;
+    }
+
+    .main_content{
+        padding: 0.7rem;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    #topic1 .title, #topic2 .title, #topic3 .title, #topic6 .title{
+        font-size: 30px;
+        line-height: 35px;  
+        padding-bottom: 1rem;
+    }
+
+    #topic2 span{
+        font-size: 25px;
+        line-height: 30px;
+    }
+   
+ 
+}
+
+@media(max-width: 650px) {
+    nav, #header_inner_container{
+        flex-direction: column;
+        font-size: 20px;
+    }
+    nav span{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #left_border{
+        border-left: none;
+        border-top: 1px solid lightgray;
+    }
+}
